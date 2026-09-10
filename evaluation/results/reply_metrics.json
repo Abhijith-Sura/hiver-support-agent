@@ -1,0 +1,13 @@
+{
+  "rouge_l": 0.4596,
+  "bleu": 0.1417,
+  "avg_length_ratio": 1.3071,
+  "avg_generated_length": 25.8,
+  "avg_reference_length": 20.6,
+  "n_samples": 25,
+  "bert_score": {
+    "precision": 0.4461,
+    "recall": 0.4941,
+    "f1": 0.4691
+  }
+}

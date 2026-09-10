@@ -1,0 +1,42 @@
+{
+  "relevance": {
+    "spearman": {
+      "correlation": 0.0014,
+      "p_value": 0.9948
+    },
+    "cohens_kappa": -0.0563,
+    "mean_absolute_error": 0.56
+  },
+  "accuracy": {
+    "spearman": {
+      "correlation": 0.3327,
+      "p_value": 0.1042
+    },
+    "cohens_kappa": NaN,
+    "mean_absolute_error": 0.36
+  },
+  "tone": {
+    "spearman": {
+      "correlation": 0.1138,
+      "p_value": 0.5881
+    },
+    "cohens_kappa": NaN,
+    "mean_absolute_error": 0.32
+  },
+  "helpfulness": {
+    "spearman": {
+      "correlation": 0.2998,
+      "p_value": 0.1454
+    },
+    "cohens_kappa": -0.1062,
+    "mean_absolute_error": 0.72
+  },
+  "completeness": {
+    "spearman": {
+      "correlation": 0.1686,
+      "p_value": 0.4205
+    },
+    "cohens_kappa": -0.0938,
+    "mean_absolute_error": 0.84
+  }
+}

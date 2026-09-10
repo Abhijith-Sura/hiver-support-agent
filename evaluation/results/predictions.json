@@ -1,0 +1,575 @@
+[
+  {
+    "customer_message": "y’all should let us see the total amount of streams of an album on the mobile version",
+    "thread_context": [],
+    "intent": "feedback_request",
+    "intent_confidence": 0.97,
+    "intent_reasoning": "The message suggests a new feature (displaying total album streams on mobile), which fits the feedback_request category for feature suggestions.",
+    "reply_text": "Hey! We get how handy that would be. Thanks for the suggestion – we’ve noted it and will share with the team 🙏 /AI",
+    "grounding_sources": [
+      "Example 1"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.97) on safe intent 'feedback_request'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_001",
+    "tweet_id": "130900",
+    "gold_intent": "feedback_request",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "This is a feature suggestion/feedback, not a technical issue or urgent account problem.",
+    "brand_reply": "Hey! We can see how that’d be handy. Thanks for taking the time to reach out – your feedback's been noted 📝 /RA"
+  },
+  {
+    "customer_message": "Unfortunately that didn’t fix the issue",
+    "thread_context": [
+      "[customer] Hey @115888. I’m helping my dad use your app and it looks like the UI doesn’t easily accommodate the larger accessible text settings he uses. https://t.co/U9hAVzdKTA",
+      "[brand] Hey Elaina! Help's here. Can you let us know his device's iOS and Spotify versions? We'll be waiting for your reply /MG",
+      "[customer] Hey thanks for the reply! iOS 11.1.2, Spotify 8.4.28.1104 Looks like this is the breaking point for the UI (everything below that size seems fine but I didn’t do a thorough QA): https://t.co/asCDrMIHKd",
+      "[brand] We'd suggest logging out, closing the app, and restarting his phone before adjusting the font to the largest configuration. Let us know how it goes /MG"
+    ],
+    "intent": "bug_report",
+    "intent_confidence": 0.94,
+    "intent_reasoning": "Customer reports that the suggested troubleshooting did not resolve the problem, indicating an ongoing app issue likely related to a UI bug.",
+    "reply_text": "Sorry to hear that! 🙁 Could you try reinstalling the app and then logging back in? If the problem persists, please DM us with a screenshot so we can dive deeper. Keep us posted! /AI",
+    "grounding_sources": [
+      "Example 1 (similarity: 1.0) – suggested providing next steps after previous fix attempt"
+    ],
+    "reply_confidence": 0.96,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Escalation trigger: 'sue'.",
+    "escalation_confidence": 0.9,
+    "id": "gs_002",
+    "tweet_id": "172481",
+    "gold_intent": "bug_report",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The issue is a specific UI rendering bug on an older iOS version. The support agent is attempting standard troubleshooting steps (likely cache clearing or app reinstall) before escalating to engineering.",
+    "brand_reply": "Can you try the steps here for us: https://t.co/EqisDMOAsr? Keep us posted /MG"
+  },
+  {
+    "customer_message": "Y'all hiring?",
+    "thread_context": [],
+    "intent": "other",
+    "intent_confidence": 0.97,
+    "intent_reasoning": "The message asks about hiring, which is unrelated to Spotify support topics; thus it falls under 'other'.",
+    "reply_text": "Hi! We’re always hiring. Check out our current openings here: https://t.co/c1Z94oBFOl 🎧 Let us know if you have any questions! /AI",
+    "grounding_sources": [
+      "Example 1: direct reply to hiring inquiry with job link"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.97) on safe intent 'other'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_003",
+    "tweet_id": "458075",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Non-support query regarding employment; does not require technical troubleshooting or account intervention.",
+    "brand_reply": "Hi Sean! For more info, check out our job openings at https://t.co/c1Z94oBFOl. If there's anything else, just give us a shout /RH"
+  },
+  {
+    "customer_message": "By the way, i was about to avail your promo but it won’t let me.",
+    "thread_context": [],
+    "intent": "premium_features",
+    "intent_confidence": 0.93,
+    "intent_reasoning": "User mentions trying to use a promo (likely for Premium) but unable to, which fits premium_features (questions about upgrading, feature availability, discounts).",
+    "reply_text": "Sorry you’re having trouble with the promo 😕. Could you DM us your account email so we can look into it? We’ll get it sorted for you! /AI",
+    "grounding_sources": [
+      "Example 1 (direct ask for email via DM)",
+      "Example 2 (offer DM help)",
+      "Example 3 (explain promo eligibility)"
+    ],
+    "reply_confidence": 0.97,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.93) on safe intent 'premium_features'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_004",
+    "tweet_id": "2886",
+    "gold_intent": "premium_features",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The user is reporting an issue with applying a promotional offer, which is a standard support query regarding premium features or billing. It does not indicate a security threat, legal issue, or severe system outage requiring immediate human escalation.",
+    "brand_reply": "Hi there! Can you fire over your account's email address via DM? We'll take a look backstage and see what we can suggest /NY https://t.co/ldFdZRiNAt"
+  },
+  {
+    "customer_message": "When I click a song nothing happens and the “shuffle” button shakes... I’ve recorded my screen to you... https://t.co/WWnqUChp5k",
+    "thread_context": [
+      "[customer] why has my Spotify not worked all bloody day!! Ruined my commute to and from work in London today 😡",
+      "[brand] Hey Sean! That doesn't sound good. Can you send us a bit more info on what's happening? We'll see what we can suggest /AU"
+    ],
+    "intent": "bug_report",
+    "intent_confidence": 0.94,
+    "intent_reasoning": "The user reports that clicking a song does nothing and the shuffle button shakes, indicating a UI/functional glitch rather than typical playback buffering or audio quality issues, fitting the bug_report category.",
+    "reply_text": "Sorry to hear that! Could you DM us your Spotify username and email so we can investigate? Also let us know your device and app version if you can. 🙏 /KL",
+    "grounding_sources": [
+      "Example 1: asked for DM with account info for bug",
+      "Example 2: requested device and app details"
+    ],
+    "reply_confidence": 0.96,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.94) on safe intent 'bug_report'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_005",
+    "tweet_id": "436597",
+    "gold_intent": "playback_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The issue is a specific playback failure (clicking does nothing, UI glitch) which can be investigated by support staff using the provided screen recording and account details. It does not require immediate human escalation to a specialized team as it is a standard technical support query.",
+    "brand_reply": "That's odd. Can you DM us your account's username and email address? We'll take a look backstage /KL https://t.co/ldFdZRiNAt"
+  },
+  {
+    "customer_message": "I had no problems the rest of the day when listening in the incognito window.",
+    "thread_context": [
+      "[customer] Spotify Web Player keeps crashing on Google Chrome. Won’t restart. (Especially after playing Ed Sheeran’s “Dive”??)There doesn’t seem to be any other way than this to contact you about it.",
+      "[brand] Hey there! Could you try using an incognito window? Let us know how it goes /DF",
+      "[customer] I’ll try it. Thanks!",
+      "[brand] Sounds good! Keep us in the loop /JK"
+    ],
+    "intent": "feedback_request",
+    "intent_confidence": 0.92,
+    "intent_reasoning": "The customer reports a positive outcome after using incognito mode, which is a form of feedback/praise rather than a specific support issue.",
+    "reply_text": "Glad to hear the incognito window worked! 🎉 Feel free to keep using it for now, and you can try the regular browser later. Let us know if anything else comes up. /AI",
+    "grounding_sources": [
+      "Example 1 (customer confirmed incognito works, reply suggested continued use and checking normal browser)"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Extended conversation (4 prior messages).",
+    "escalation_confidence": 0.75,
+    "id": "gs_006",
+    "tweet_id": "102196",
+    "gold_intent": "playback_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The customer is reporting a resolution to a previous technical issue (likely browser-related playback or UI glitch). No further action or escalation is required as the issue is resolved in the workaround.",
+    "brand_reply": "Glad to hear it's working in an incognito window! We'd suggest using it in the meantime, but you can try again later on using a normal browser. Let us know if there's anything else we can help with /KM"
+  },
+  {
+    "customer_message": "but when it's been 9 years since Spotify was launched",
+    "thread_context": [
+      "[customer] sad to say Spotify is not in India",
+      "[brand] Hey Prajwal! We're launching in new countries as often as possible. Be sure to add your email at https://t.co/X8DVSX9QgM /K"
+    ],
+    "intent": "feedback_request",
+    "intent_confidence": 0.92,
+    "intent_reasoning": "The message expresses a complaint about Spotify's availability in India after many years, which fits the feedback_request category (product direction complaints).",
+    "reply_text": "We understand the wait 😔. Rest assured, everyone who adds their email here https://t.co/X8DVSX9QgM will be notified as soon as we launch in India! /K",
+    "grounding_sources": [
+      "Example 1 (customer asked about 9‑year wait, reply acknowledged frustration and suggested adding email for launch updates)"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.92) on safe intent 'feedback_request'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_007",
+    "tweet_id": "48581",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The user is expressing frustration about the lack of service in their region (India), which is a known limitation and not a technical bug or account issue. This falls under general feedback/complaints about product availability.",
+    "brand_reply": "We understand. Rest assured, we'll update everyone who's added their email to that form when it's available! /K"
+  },
+  {
+    "customer_message": "Please do! X",
+    "thread_context": [
+      "[customer] Does @115888 have a blocking function of sorts? There are artists I don't want any music from ever. https://t.co/XJdCdGWoFO",
+      "[brand] Hi Dana! We don't have any specific info on this right now, but we'd suggest supporting the idea by voting here: https://t.co/hlXvRg5Zog /JE",
+      "[customer] It says the case is closed?",
+      "[brand] Sorry for the mix-up. We appreciate your feedback, and we'll pass your comments on to the right folks /JE"
+    ],
+    "intent": "other",
+    "intent_confidence": 0.98,
+    "intent_reasoning": "The message is a brief, non‑specific reply (\"Please do! X\") that does not relate to account, playback, billing, etc., so it fits the 'other' category.",
+    "reply_text": "Sure! If there’s anything else, give us a shout. https://t.co/m4HWSbgHVZ 🙂 /JE",
+    "grounding_sources": [
+      "Example 1 (customer: Please do! X)"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Extended conversation (4 prior messages).",
+    "escalation_confidence": 0.75,
+    "id": "gs_008",
+    "tweet_id": "45731",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The message is a brief, positive acknowledgment of the previous response and does not contain a new support request or issue.",
+    "brand_reply": "Sure! If there's anything else, give us a shout. https://t.co/m4HWSbgHVZ 🙂 /JE"
+  },
+  {
+    "customer_message": "web player continually cuts out on me and absolutely ruins my flow while at work. 👎",
+    "thread_context": [],
+    "intent": "playback_issue",
+    "intent_confidence": 0.96,
+    "intent_reasoning": "User reports the web player cutting out, which is a playback problem (audio stopping unexpectedly).",
+    "reply_text": "Hey! That’s not cool. What device, operating system, and browser are you using? We’ll see what we can suggest 😊 /AI",
+    "grounding_sources": [
+      "Example 1: asked for device, OS, and browser to troubleshoot web player cuts out"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.96) on safe intent 'playback_issue'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_009",
+    "tweet_id": "39766",
+    "gold_intent": "playback_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "This is a standard technical troubleshooting scenario for web player instability that can be resolved via standard support scripts (checking browser, cache, network) without needing immediate human escalation.",
+    "brand_reply": "Hey! That's not cool. What device, operating system, and browser are you using? We'll see what we can suggest /MV"
+  },
+  {
+    "customer_message": "please help me with my login.",
+    "thread_context": [],
+    "intent": "account_access",
+    "intent_confidence": 0.97,
+    "intent_reasoning": "The user asks for help with login, which falls under account_access (login issues, password resets, account recovery).",
+    "reply_text": "Hey there! Sorry you’re having trouble logging in. Could you DM us your account email or username? We’ll take a look. 🙏 https://t.co/ldFdZRiNAt /AI",
+    "grounding_sources": [
+      "Example 1 (login help request)",
+      "Example 2 (login help request)"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Intent 'account_access' requires account-level access.",
+    "escalation_confidence": 0.85,
+    "id": "gs_010",
+    "tweet_id": "76244",
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard login assistance request that can be resolved via standard troubleshooting or account recovery flows.",
+    "brand_reply": "Hey there! Can you DM us your account's username or email address? We'll take a look backstage /MS https://t.co/ldFdZRiNAt"
+  },
+  {
+    "customer_message": "like to get my Spotify verified.?",
+    "thread_context": [],
+    "intent": "other",
+    "intent_confidence": 0.85,
+    "intent_reasoning": "The user asks about getting verified, which doesn't fit any specific intent categories (account access, playback, billing, etc.), so it is classified as 'other'.",
+    "reply_text": "Hey there! 🎉 To request verification, head to https://t.co/obFLZ92rF4 and follow the steps. Let us know if you need any more help! /AI",
+    "grounding_sources": [
+      "Example 1 (verified request link)"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.85) on safe intent 'other'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_011",
+    "tweet_id": "374861",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The request is for a non-standard feature (account verification) that does not exist in the standard support taxonomy. It is not a technical bug, billing issue, or account access problem. It falls under 'other' as a non-support query or misunderstanding of platform features.",
+    "brand_reply": "2: If you don’t have access yet, request it at at https://t.co/obFLZ92rF4. We're here for you if there's anything else /YM"
+  },
+  {
+    "customer_message": "How? Please?",
+    "thread_context": [],
+    "intent": "other",
+    "intent_confidence": 0.92,
+    "intent_reasoning": "The message is vague and does not contain any information about account, playback, billing, etc.; it fits the 'other' category for unclear or non-support queries.",
+    "reply_text": "Hey there! 😊 Could you DM us your account email or username? We’ll take a look right away. /AI https://t.co/ldFdZRiNAt",
+    "grounding_sources": [
+      "Example 1: asked for DM with email/username; Example 2 & 3 similar phrasing"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.92) on safe intent 'other'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_012",
+    "tweet_id": "25402",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The message is too vague to determine a specific technical issue or intent; it requires clarification rather than immediate escalation to a specialist.",
+    "brand_reply": "Hey there! Can you send us a DM with your account's email address or username? We'll take a look backstage /AR https://t.co/ldFdZRiNAt"
+  },
+  {
+    "customer_message": "Hi @SpotifyCares, I have a #spotify account created with FB. I changed my Facebook email months ago but it hasn't updated on Spotify yet. Thanks",
+    "thread_context": [],
+    "intent": "account_access",
+    "intent_confidence": 0.96,
+    "intent_reasoning": "User reports email change on linked Facebook account not reflected on Spotify, which is an account access issue (email changes/account recovery).",
+    "reply_text": "Hey there, sorry for the hassle! 😕 Could you DM us the email you use on Facebook (or your Spotify login) so we can look into it? We’ll get it sorted. /AI",
+    "grounding_sources": [
+      "Example 1 (direct match)",
+      "Example 2 (similar email change issue)"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Intent 'account_access' requires account-level access.",
+    "escalation_confidence": 0.85,
+    "id": "gs_013",
+    "tweet_id": "116581",
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard account information update request that can be resolved by support staff verifying identity and updating records.",
+    "brand_reply": "Hey Lorenzo, help's here! Could you DM us your account's email address or the email registered on your Facebook account? We'll take a look under the hood /WP https://t.co/ldFdZRiNAt"
+  },
+  {
+    "customer_message": "remind me again why isn't day6 on spotify 😤",
+    "thread_context": [],
+    "intent": "feedback_request",
+    "intent_confidence": 0.92,
+    "intent_reasoning": "The user is complaining about missing content (artist Day6) and asking for an explanation, which fits the feedback_request category for complaints about product direction or content availability.",
+    "reply_text": "Hey there! We’d love to have DAY6 on Spotify too. Availability depends on licensing and rights. More info here: https://t.co/0i8GpimuDa 😊 /AI",
+    "grounding_sources": [
+      "Example 1 (remind me again why isn’t day6 on spotify)",
+      "Example 2 (WHY IS DAY6 NOT EVEN ON SPOTIFY YET)"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.92) on safe intent 'feedback_request'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_014",
+    "tweet_id": "172433",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "This is a general inquiry about content availability/licensing, not a technical bug or account issue. It can be handled with a standard informational response.",
+    "brand_reply": "Hi there! We’d love to have all of their stuff available, but we have some info about content here: https://t.co/0i8GpimuDa /AK"
+  },
+  {
+    "customer_message": "Did that. I'll try it again.",
+    "thread_context": [
+      "[brand] Hey, that's not cool. Are you getting any error messages? If so, a screenshot would be helpful. We'll check under the hood /JE",
+      "[customer] Nope, no errors. I got the app to work, but the web player refuses to start.",
+      "[brand] Hmm. Is this happening over a public or private network connection? Does using an incognito window help? /JE",
+      "[customer] Tried all that. Not working. The App is working fine after I turned off the hardware enhanced option.",
+      "[brand] Just to check, are you still having issues with the web player? We'd suggest clearing your browser's cache and cookies. Keep us posted /JE"
+    ],
+    "intent": "other",
+    "intent_confidence": 0.96,
+    "intent_reasoning": "The message is a brief status update confirming they tried suggested steps; it doesn't describe a specific issue or request, so it fits the 'other' category.",
+    "reply_text": "Got it! 👍 Let us know how it goes—if it’s still acting up, feel free to DM us your account details so we can dig in. /AI",
+    "grounding_sources": [
+      "Example 1 – acknowledged attempt and asked to keep us posted",
+      "Example 2 – friendly reassurance and invitation to reply"
+    ],
+    "reply_confidence": 0.96,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Extended conversation (5 prior messages).",
+    "escalation_confidence": 0.75,
+    "id": "gs_015",
+    "tweet_id": "388996",
+    "gold_intent": "playback_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The customer is following standard troubleshooting steps for a web player issue and has not reported a critical failure or requested human intervention.",
+    "brand_reply": "Sounds good! Looking forward to hearing from you. We'll be... https://t.co/MhJcJycMEx /JE"
+  },
+  {
+    "customer_message": "So in other words... Not anytime soon. @115948 here I come.",
+    "thread_context": [
+      "[customer] Will there be an apple watch app for @115888 soon? Or, is it time to make the switch to #AppleMusic #whathappenedtosnowy",
+      "[brand] Hey Daniel, that'd be sweet! You can vote for the idea and help make it happen here: https://t.co/geGOjDqdJ4 /GK"
+    ],
+    "intent": "other",
+    "intent_confidence": 0.96,
+    "intent_reasoning": "The message is a comment about the product roadmap and a personal decision, not a support request or specific issue, so it fits the 'other' category.",
+    "reply_text": "We're sorry to hear that 😕 If you have any other questions, just let us know. /GK",
+    "grounding_sources": [
+      "Example 1: exact same customer message and reply"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.96) on safe intent 'other'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_016",
+    "tweet_id": "389009",
+    "gold_intent": "feedback_request",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The user is expressing dissatisfaction with the lack of a specific feature (Apple Watch app) and hinting at switching services. This is a product feedback/complaint scenario that does not require technical troubleshooting or account intervention, so it can be handled automatically with a polite acknowledgment.",
+    "brand_reply": "We're sorry to hear that. In any case, feel free to tweet us if there's anything else /GK"
+  },
+  {
+    "customer_message": "stop acting up; I need this rn https://t.co/80iLTmZX4c",
+    "thread_context": [],
+    "intent": "bug_report",
+    "intent_confidence": 0.78,
+    "intent_reasoning": "The user reports something is 'acting up' and includes a link likely showing the problem, indicating a malfunction or unexpected behavior without specifics about playback, login, or billing, fitting the bug_report category.",
+    "reply_text": "Hey there! Sorry it’s acting up 😕. We’ve flagged it and hope to have it fixed soon. In the meantime, you can check out our content help here: https://t.co/0i8GpimuDa /AI",
+    "grounding_sources": [
+      "Example 1: identical bug report and reply"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "The message is a bug report with moderate confidence (0.78) and can be addressed with standard troubleshooting steps without human escalation.",
+    "escalation_confidence": 0.78,
+    "id": "gs_017",
+    "tweet_id": "122825",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The message is vague, lacks specific technical details, and appears to be a general complaint or request without a clear support category. It does not indicate a critical system failure or security breach requiring immediate human escalation.",
+    "brand_reply": "Hey there! Fingers crossed we'll be able to have it soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa /MO"
+  },
+  {
+    "customer_message": "Besides of solving payment issues you could take a look on your SignUp. Infinite loading spinner when all data is written - and nothing!",
+    "thread_context": [],
+    "intent": "bug_report",
+    "intent_confidence": 0.94,
+    "intent_reasoning": "User reports an infinite loading spinner during sign‑up, which is a UI/functional bug, fitting the bug_report category.",
+    "reply_text": "Hey there! Sorry you’re seeing that endless spinner. Can you tell us which device and OS you’re using, and if it’s happening in the app or on a browser? We’ll dig in. /AI",
+    "grounding_sources": [
+      "Example 1 (infinite loading spinner on SignUp)"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Escalation trigger: 'sue'.",
+    "escalation_confidence": 0.9,
+    "id": "gs_018",
+    "tweet_id": "30609",
+    "gold_intent": "bug_report",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The user is reporting a specific UI glitch (infinite loading spinner) during the sign-up process. This is a standard technical issue that can be triaged by support agents to gather device and environment details before potentially escalating to engineering if it persists.",
+    "brand_reply": "Hey Alexander! Can you let us know your device and operating system? Is this happening on your browser or the app? /JP"
+  },
+  {
+    "customer_message": "Hey @115888 feature request. A button that stops Christmas songs playing before 1st December. Thanks.",
+    "thread_context": [],
+    "intent": "feedback_request",
+    "intent_confidence": 0.97,
+    "intent_reasoning": "The message is a feature suggestion requesting a new button to control Christmas music, which fits the feedback_request category.",
+    "reply_text": "We can see how that’d be handy. Thanks for sharing your idea – we’ve noted your feedback 📝 /AI",
+    "grounding_sources": [
+      "Example 1 (feedback request)"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.97) on safe intent 'feedback_request'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_019",
+    "tweet_id": "166655",
+    "gold_intent": "feedback_request",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "This is a feature suggestion, not a technical issue or account problem requiring human intervention.",
+    "brand_reply": "We can see how that’d be handy. Thanks for taking the time to reach out – your feedback's been noted 📝 /DF"
+  },
+  {
+    "customer_message": "can u answer my DM pls pretty pls",
+    "thread_context": [],
+    "intent": "other",
+    "intent_confidence": 0.98,
+    "intent_reasoning": "The message is a casual request for a direct message reply and does not relate to any support categories such as account, playback, billing, etc.",
+    "reply_text": "Hi there! We’ve just sent a DM your way. Let’s continue chatting there 😊 /AI",
+    "grounding_sources": [
+      "Example 1 (similarity: 1.0)"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.98) on safe intent 'other'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_020",
+    "tweet_id": "454703",
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The message is a casual request to move the conversation to a different channel (DM) without describing a specific technical issue or support need. It does not require human escalation.",
+    "brand_reply": "Hi there! We've just sent a DM your way. Let's carry on chatting there /FR"
+  },
+  {
+    "customer_message": "Hei S! For like the first time ever in years, the stream is cracking and producing weird noises. Both on LTE and WiFi. Any idea? iOS 11.1 on 6s.",
+    "thread_context": [],
+    "intent": "playback_issue",
+    "intent_confidence": 0.96,
+    "intent_reasoning": "User reports audio cracking and weird noises during streaming, which fits playback_issue (audio quality problems).",
+    "reply_text": "Hey there, that cracking sound definitely isn’t fun 😕. Can you tell us which Spotify app version you’re on? Also try restarting the app and your phone – sometimes that helps. Let us know! /AI",
+    "grounding_sources": [
+      "Example 1 (asked for version)",
+      "Example 2 (suggested restarting)",
+      "Example 3 (asked for device/OS info)"
+    ],
+    "reply_confidence": 0.96,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.96) on safe intent 'playback_issue'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_021",
+    "tweet_id": "199142",
+    "gold_intent": "playback_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "This is a standard audio quality/playback troubleshooting request that can be resolved with standard support steps (checking app version, clearing cache, checking network) without needing a human agent.",
+    "brand_reply": "Hey Ivan, that doesn't sound cool. Can you let us know the Spotify version you're using? We'll see what we can suggest /PL"
+  },
+  {
+    "customer_message": "haha i like the song reference! will do :) y'all are amazing! the ready made playlists on the browse page gets me through the day",
+    "thread_context": [
+      "[customer] when is reputation going to come out on spotify USA?? i read that it's available on spotify in other countries, but when i checked reputation on my Spotify it only had 4 songs - the singles!",
+      "[brand] Hey! We're working on it, and we hope to have it available soon. There's more info here: https://t.co/ODH8pwgytz /VK",
+      "[customer] thank you!",
+      "[brand] Anytime! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /AN"
+    ],
+    "intent": "feedback_request",
+    "intent_confidence": 0.97,
+    "intent_reasoning": "The message expresses praise and positive feedback about Spotify's ready-made playlists, fitting the feedback_request category.",
+    "reply_text": "Aww, thanks for the love! 🎉 Glad the playlists keep you going. Enjoy the tunes! 🎶 /AI",
+    "grounding_sources": [
+      "Example 1: similar positive feedback reply"
+    ],
+    "reply_confidence": 0.98,
+    "escalation_decision": "escalate",
+    "escalation_reason": "Extended conversation (4 prior messages).",
+    "escalation_confidence": 0.75,
+    "id": "gs_022",
+    "tweet_id": "458045",
+    "gold_intent": "feedback_request",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The message is positive feedback and praise regarding the product (playlists), requiring no technical troubleshooting or escalation.",
+    "brand_reply": "Aww, thanks for the kind words! Enjoy the music 🎶 /LS"
+  },
+  {
+    "customer_message": "Would be very cool @115888 if under \"New Releases\" things were separated by Album vs. Single &lt;3",
+    "thread_context": [],
+    "intent": "feedback_request",
+    "intent_confidence": 0.97,
+    "intent_reasoning": "The message suggests a new feature (separating albums and singles in New Releases), which fits the feedback_request category for feature suggestions.",
+    "reply_text": "Thanks for the idea! 🎉 You can suggest it in our Community so others can up‑vote: https://t.co/rtDvYZOF32. We’ll pass it along too. /AI",
+    "grounding_sources": [
+      "Example 1 (feedback suggestion response)"
+    ],
+    "reply_confidence": 0.99,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.97) on safe intent 'feedback_request'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_023",
+    "tweet_id": "22239",
+    "gold_intent": "feedback_request",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "This is a feature suggestion, not a technical issue or account problem. It can be handled automatically by directing the user to the community forum.",
+    "brand_reply": "This sounds like a great idea! Suggest it in our Community at https://t.co/rtDvYZOF32 so it can get support from other users 💚 /RR"
+  },
+  {
+    "customer_message": "It's working now, just wanted to check. Any news on being able to stream podcasts to my Chromecast?",
+    "thread_context": [
+      "[customer] Hello @116130 your service no longer seems to be compatible with my Google Chromecast. Have you withdrawn this service?",
+      "[brand] Hey Adam! You should still be able to cast Spotify from your phone/tablet to a TV, speaker, or stereo. What's happening exactly? /MA"
+    ],
+    "intent": "device_sync",
+    "intent_confidence": 0.96,
+    "intent_reasoning": "User asks about streaming podcasts to Chromecast, which concerns multi-device playback and Spotify Connect functionality, fitting the device_sync category.",
+    "reply_text": "Hi! 🎧 You can stream podcasts to Chromecast just like music. If you run into any hiccups, make sure the app and device firmware are up‑to‑date and both are on the same Wi‑Fi. See our casting help article for tips. Let us know if it persists! /AI",
+    "grounding_sources": [
+      "Example 1 (customer ask about podcasts to Chromecast)",
+      "Example 3 (similar device_sync query)"
+    ],
+    "reply_confidence": 0.96,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.96) on safe intent 'device_sync'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_024",
+    "tweet_id": "280226",
+    "gold_intent": "device_sync",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "The user confirmed the previous issue is resolved and is asking a general feature availability question regarding Chromecast and podcasts. This is a standard informational query that can be handled by a bot or agent without escalation.",
+    "brand_reply": "We'd like to check a few things first. Can you let us know the make and model of the device that you're using to cast? /MA"
+  },
+  {
+    "customer_message": "hoi Spotify, sinds de nieuwe update kan ik mijn iPhone niet meer draadloos met mijn Bose radio connecten.. #help",
+    "thread_context": [],
+    "intent": "device_sync",
+    "intent_confidence": 0.96,
+    "intent_reasoning": "User reports inability to wirelessly connect iPhone to Bose radio after update, which is a Spotify Connect/multi-device playback issue, matching device_sync.",
+    "reply_text": "Hey! Sorry you’re having trouble connecting your iPhone to your Bose after the update. We can help in Dutch via email: https://t.co/ZgU70TbP8M. Let us know how you’d like to proceed 😊 /AI",
+    "grounding_sources": [
+      "Example 1 (similarity: 1.0)"
+    ],
+    "reply_confidence": 0.97,
+    "escalation_decision": "auto_handle",
+    "escalation_reason": "High confidence (0.96) on safe intent 'device_sync'.",
+    "escalation_confidence": 0.85,
+    "id": "gs_025",
+    "tweet_id": "422544",
+    "gold_intent": "device_sync",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "This is a standard connectivity issue following an update. It can be resolved with troubleshooting steps (restart devices, check Bluetooth settings, update app) or by directing to the specific Dutch support channel as the current reply did, but does not require immediate human escalation for account safety or billing disputes.",
+    "brand_reply": "Hey! We can help out in English via Twitter, but we also have Dutch support via email at https://t.co/ZgU70TbP8M /RS"
+  }
+]

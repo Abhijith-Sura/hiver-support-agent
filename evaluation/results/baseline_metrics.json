@@ -1,0 +1,104 @@
+{
+  "random": {
+    "accuracy": 0.36,
+    "macro_f1": 0.2319,
+    "weighted_f1": 0.3418,
+    "per_intent": {
+      "account_access": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      },
+      "playback_issue": {
+        "precision": 0.3333,
+        "recall": 0.4,
+        "f1": 0.3636,
+        "support": 5
+      },
+      "premium_features": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "device_sync": {
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1": 0.2857,
+        "support": 2
+      },
+      "bug_report": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      },
+      "feedback_request": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5455,
+        "support": 5
+      },
+      "other": {
+        "precision": 0.5,
+        "recall": 0.375,
+        "f1": 0.4286,
+        "support": 8
+      }
+    },
+    "classification_report": "                  precision    recall  f1-score   support\n\n  account_access       0.00      0.00      0.00         2\n  playback_issue       0.33      0.40      0.36         5\npremium_features       0.00      0.00      0.00         1\n     device_sync       0.20      0.50      0.29         2\n      bug_report       0.00      0.00      0.00         2\nfeedback_request       0.50      0.60      0.55         5\n           other       0.50      0.38      0.43         8\n\n        accuracy                           0.36        25\n       macro avg       0.22      0.27      0.23        25\n    weighted avg       0.34      0.36      0.34        25\n",
+    "n_samples": 25
+  },
+  "tfidf": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "per_intent": {
+      "account_access": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "playback_issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "premium_features": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "device_sync": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "bug_report": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "feedback_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      }
+    },
+    "classification_report": "                  precision    recall  f1-score   support\n\n  account_access       1.00      1.00      1.00         2\n  playback_issue       1.00      1.00      1.00         5\npremium_features       1.00      1.00      1.00         1\n     device_sync       1.00      1.00      1.00         2\n      bug_report       1.00      1.00      1.00         2\nfeedback_request       1.00      1.00      1.00         5\n           other       1.00      1.00      1.00         8\n\n        accuracy                           1.00        25\n       macro avg       1.00      1.00      1.00        25\n    weighted avg       1.00      1.00      1.00        25\n",
+    "n_samples": 25
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "avg_overall": 4.79,
+  "avg_per_dimension": {
+    "relevance": 4.76,
+    "accuracy": 4.92,
+    "tone": 4.92,
+    "helpfulness": 4.72,
+    "completeness": 4.64
+  },
+  "n_judged": 25
+}

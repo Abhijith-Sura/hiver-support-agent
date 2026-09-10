@@ -1,0 +1,403 @@
+[
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly acknowledges the customer's suggestion about viewing total album streams on mobile and states it will be noted.",
+      "accuracy": "No factual claims are made; the statement about noting the feedback is correct.",
+      "tone": "Uses a friendly, appreciative tone with an emoji, matching SpotifyCares voice.",
+      "helpfulness": "It thanks the user and confirms the feedback will be shared with the team, which is the appropriate action for a feedback request.",
+      "completeness": "The response thanks the user, acknowledges the suggestion, and confirms it will be passed on—covering all necessary points."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 4,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 4
+    },
+    "justifications": {
+      "relevance": "The reply acknowledges the customer's continued problem and offers a new troubleshooting step, directly addressing the issue.",
+      "accuracy": "Reinstalling the app and logging in is a valid, factual suggestion; no incorrect information is presented.",
+      "tone": "The response is friendly, empathetic, and uses a casual tone with an emoji, matching SpotifyCares’s voice.",
+      "helpfulness": "It provides clear, actionable steps and a fallback (DM with screenshot) if the issue persists, guiding the customer toward resolution.",
+      "completeness": "The reply covers next steps and a contingency plan, though it doesn’t reference the exact prior steps, leaving a slight gap."
+    },
+    "overall_score": 4.6
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 4,
+      "helpfulness": 5,
+      "completeness": 4
+    },
+    "justifications": {
+      "relevance": "The reply directly answers the hiring inquiry by confirming they are hiring and providing the job link.",
+      "accuracy": "The link provided matches the reference and no incorrect information is given.",
+      "tone": "The tone is friendly and helpful, though the use of an emoji and the \"AI\" tag is slightly less aligned with the typical SpotifyCares voice.",
+      "helpfulness": "It gives a clear next step (the job openings link) and invites further questions, guiding the user toward resolution.",
+      "completeness": "It covers the main request but omits the customer's name and uses a different sign‑off, so it’s slightly less complete than the reference."
+    },
+    "overall_score": 4.6
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {},
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly addresses the issue by requesting the user's Spotify username and email, matching the reference, and additionally asks for device and app version, which is still pertinent.",
+      "accuracy": "All information requested is appropriate and there are no factual errors or hallucinations.",
+      "tone": "The response is friendly and empathetic, using a casual apology and a supportive emoji, aligning with SpotifyCares tone.",
+      "helpfulness": "It provides clear next steps for the user to DM the required details, facilitating investigation of the bug.",
+      "completeness": "It covers the essential request from the reference and adds useful extra details (device and app version), making it fully comprehensive."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly acknowledges the customer's note about the incognito window working and offers guidance.",
+      "accuracy": "All statements are factual and consistent with the situation; no incorrect information is presented.",
+      "tone": "The tone is friendly, upbeat, and empathetic, matching SpotifyCares' voice, even adding a light emoji for warmth.",
+      "helpfulness": "It advises the customer to continue using incognito for now, suggests trying a regular browser later, and invites further questions, providing clear next steps.",
+      "completeness": "The response covers all points from the reference reply: acknowledgment, interim recommendation, future suggestion, and an invitation for more help."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 4,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly addresses the customer's concern about the long wait and informs them about notification for the India launch.",
+      "accuracy": "The content is mostly correct, but the added short link could be considered unverified or potentially fabricated, leading to a slight accuracy penalty.",
+      "tone": "Uses a friendly, empathetic tone with an appropriate emoji, matching SpotifyCares voice.",
+      "helpfulness": "Provides a clear action (adding email) to ensure the customer will be notified, moving toward resolution.",
+      "completeness": "Fully covers the needed information without leaving gaps."
+    },
+    "overall_score": 4.8
+  },
+  {
+    "scores": {
+      "relevance": 3,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 3,
+      "completeness": 3
+    },
+    "justifications": {
+      "relevance": "The reply is a generic friendly sign‑off and does not directly address the vague request \"Please do! X\", but it does acknowledge the customer and offers further help.",
+      "accuracy": "The reply contains no factual claims, so it is fully accurate.",
+      "tone": "The tone is friendly, empathetic, and matches SpotifyCares voice.",
+      "helpfulness": "It invites the customer to ask more questions, providing a path forward, but does not resolve any specific issue.",
+      "completeness": "Given the lack of a clear issue, the reply covers the minimal expected content but does not add any substantive information."
+    },
+    "overall_score": 3.8
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly asks about the device, OS, and browser, which are needed to address the web player cutting out issue.",
+      "accuracy": "All information requested is factual and there are no incorrect statements.",
+      "tone": "The tone is friendly, empathetic, and matches SpotifyCares voice, even adding a light emoji appropriate for the brand.",
+      "helpfulness": "By requesting specific technical details, the reply moves the conversation toward a resolution.",
+      "completeness": "The reply covers all necessary steps to begin troubleshooting, mirroring the reference response."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly addresses the login problem and asks for the needed account identifier.",
+      "accuracy": "All information is correct; it correctly requests the email or username via DM and includes the same link as the reference.",
+      "tone": "The tone is friendly and empathetic, matching SpotifyCares style with informal greeting and apology.",
+      "helpfulness": "It provides a clear actionable step (DM the account details) to move toward resolution.",
+      "completeness": "The reply includes all necessary elements: acknowledgment of the issue, request for information, and a link for follow‑up."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly addresses the customer's request for verification by providing the appropriate link and next steps.",
+      "accuracy": "All information provided (the verification link and instruction to follow steps) matches the reference and contains no fabricated details.",
+      "tone": "The tone is friendly, upbeat, and empathetic, aligning with SpotifyCares' voice.",
+      "helpfulness": "It gives a clear action (visit the link and follow steps) and invites further assistance, moving the customer toward resolution.",
+      "completeness": "The reply includes the necessary link, instruction, and an offer for additional help, covering all aspects of the reference response."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly asks the user to provide their account email or username, addressing the vague \"How? Please?\" request.",
+      "accuracy": "All information is correct and matches the reference; no fabricated details are present.",
+      "tone": "The reply is friendly and empathetic, using a casual greeting and an emoji consistent with SpotifyCares tone.",
+      "helpfulness": "It gives a clear actionable step (DM with email/username) to move toward resolution.",
+      "completeness": "The response fully covers what the user needs to do, mirroring the reference reply without omissions."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 4
+    },
+    "justifications": {
+      "relevance": "The reply directly asks for the email needed to resolve the Facebook‑email mismatch, addressing the customer's issue.",
+      "accuracy": "All information is correct; it simply requests the relevant email and offers to investigate, with no fabricated details.",
+      "tone": "Uses a friendly, empathetic tone with an apology and casual greeting, matching SpotifyCares style.",
+      "helpfulness": "Provides a clear next step (DM the email) to move toward a solution.",
+      "completeness": "Covers the essential action but omits the reference link to the help article included in the reference reply, so it’s slightly less complete."
+    },
+    "overall_score": 4.8
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly addresses the user's query about DAY6's absence on Spotify, explaining the reason and providing a link for more info.",
+      "accuracy": "The explanation about licensing and rights is correct and the provided link matches the reference, with no fabricated details.",
+      "tone": "The response uses a friendly, empathetic tone with a casual greeting and smiley, aligning with SpotifyCares voice.",
+      "helpfulness": "It offers a clear reason and a resource for further details, giving the user actionable information.",
+      "completeness": "All aspects of the user's request are covered: reason for unavailability and where to find more information."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 4,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly acknowledges the customer's update and asks for further feedback, staying on topic.",
+      "accuracy": "No factual claims are made; the content is generic and correct.",
+      "tone": "Uses a friendly, upbeat tone with an emoji, matching SpotifyCares’s empathetic voice.",
+      "helpfulness": "Offers a clear next step (report back, DM details if needed), though it could be slightly more specific about what to try again.",
+      "completeness": "Covers the necessary acknowledgment and next actions for the brief customer update."
+    },
+    "overall_score": 4.8
+  },
+  {
+    "scores": {
+      "relevance": 3,
+      "accuracy": 5,
+      "tone": 4,
+      "helpfulness": 3,
+      "completeness": 2
+    },
+    "justifications": {
+      "relevance": "The reply acknowledges the customer's sentiment but does not address the specific content of their message, which is vague about a future event.",
+      "accuracy": "The reply contains no factual claims, so it is fully accurate.",
+      "tone": "The tone is friendly and empathetic, matching SpotifyCares style, though the emoji is optional but acceptable.",
+      "helpfulness": "It invites further questions but offers no concrete assistance or next steps related to the customer's comment.",
+      "completeness": "The response is brief and generic, lacking any detailed information or coverage of potential follow‑up actions."
+    },
+    "overall_score": 3.4
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {},
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly asks for device, OS, and platform details to address the infinite spinner bug, matching the customer's issue.",
+      "accuracy": "No factual statements are made; the request for information is correct and not fabricated.",
+      "tone": "Uses a friendly, apologetic tone consistent with SpotifyCares voice.",
+      "helpfulness": "Requests essential diagnostic information, enabling further investigation and resolution.",
+      "completeness": "Covers all necessary follow‑up questions (device, OS, app vs browser) to proceed."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 4,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly acknowledges the feature request about stopping Christmas songs, matching the customer's issue.",
+      "accuracy": "The response contains no factual claims; it simply thanks the user and notes the feedback, which is correct.",
+      "tone": "The tone is friendly, appreciative, and aligns with SpotifyCares’s empathetic voice.",
+      "helpfulness": "It acknowledges the suggestion and notes it, which is the standard action for feedback, though it doesn't provide additional steps, so slightly less than perfect.",
+      "completeness": "All necessary elements—acknowledgment, gratitude, and confirmation that feedback is recorded—are present."
+    },
+    "overall_score": 4.8
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 4,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly addresses the customer's request to answer their DM.",
+      "accuracy": "The content is correct, but the closing tag differs from the reference (/AI vs /FR), a minor inconsistency.",
+      "tone": "Friendly, upbeat tone with an emoji matches SpotifyCares voice.",
+      "helpfulness": "Clearly states that a DM has been sent and invites continuation there.",
+      "completeness": "All necessary information from the reference reply is included."
+    },
+    "overall_score": 4.8
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly addresses the cracking audio issue and asks for the app version, matching the customer's problem.",
+      "accuracy": "All suggested actions (checking app version, restarting app/phone) are correct and standard troubleshooting steps; no incorrect information is provided.",
+      "tone": "The tone is friendly and empathetic, using casual language and an emoji, aligning with SpotifyCares voice.",
+      "helpfulness": "Provides clear, actionable steps (provide version, restart app/phone) that move toward resolving the issue.",
+      "completeness": "The reply covers the necessary information and adds an extra helpful step, fully addressing the customer's concern."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly acknowledges the customer's positive feedback about the playlists and thanks them, matching the issue.",
+      "accuracy": "The response contains no factual claims, thus no inaccuracies or hallucinations.",
+      "tone": "Uses a friendly, enthusiastic tone with emojis, aligning with SpotifyCares voice.",
+      "helpfulness": "While no action is required, the reply appropriately closes the interaction by expressing gratitude and encouragement to enjoy the music.",
+      "completeness": "The reply covers all aspects of the customer's message: gratitude, acknowledgment of playlists, and a friendly sign‑off."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {
+      "relevance": "The reply directly acknowledges the user's suggestion and guides them to the community forum, matching the intent of the feedback request.",
+      "accuracy": "All information provided (acknowledgment, community link, encouragement to up‑vote) is correct and there are no fabricated details.",
+      "tone": "The tone is friendly and enthusiastic, using an emoji and appreciative language consistent with SpotifyCares brand voice.",
+      "helpfulness": "It gives clear next steps for the user to have their idea considered, encouraging community participation and indicating the idea will be passed along.",
+      "completeness": "The response fully addresses the user's suggestion, provides the community link, and explains how the idea can be supported, covering all necessary aspects."
+    },
+    "overall_score": 5.0
+  },
+  {
+    "scores": {
+      "relevance": 4,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 4,
+      "completeness": 4
+    },
+    "justifications": {},
+    "overall_score": 4.4
+  },
+  {
+    "scores": {
+      "relevance": 5,
+      "accuracy": 5,
+      "tone": 5,
+      "helpfulness": 5,
+      "completeness": 5
+    },
+    "justifications": {},
+    "overall_score": 5.0
+  }
+]
