@@ -30,12 +30,28 @@ class SupportAgentPipeline:
     """Full pipeline: classify → retrieve → generate reply → decide escalation."""
 
     def __init__(self, api_key: str | None = None):
-        self.api_key = api_key or LLM_API_KEY
-        if not self.api_key:
-            raise ValueError("API key required. Set LLM_API_KEY in .env or pass api_key.")
+        self.api_key = api_key if api_key is not None else LLM_API_KEY
+        self.offline_mode = not bool(self.api_key)
 
         logger.info("Initializing pipeline components…")
-        self.classifier = LLMClassifier(api_key=self.api_key)
+        if self.offline_mode:
+            logger.warning(
+                "No GROQ_API_KEY detected. Running in OFFLINE DEMO MODE.\n"
+                "Using local keyword/heuristic classification + Sentence-BERT retrieval.\n"
+                "To use live LLM generation, set GROQ_API_KEY in .env"
+            )
+            from src.data.sample import rough_classify
+            class OfflineClassifier:
+                def classify(self, message: str, thread_context: list[str] | None = None) -> dict:
+                    intent = rough_classify(message)
+                    return {
+                        "intent": intent,
+                        "confidence": 0.85,
+                        "reasoning": f"Offline classifier matched keywords for '{intent}'.",
+                    }
+            self.classifier = OfflineClassifier()
+        else:
+            self.classifier = LLMClassifier(api_key=self.api_key)
 
         self.retriever = ReplyRetriever()
         try:
@@ -45,8 +61,38 @@ class SupportAgentPipeline:
             logger.warning("No retrieval index found. Building from processed conversations…")
             self._build_retrieval_index()
 
-        self.generator = ReplyGenerator(api_key=self.api_key, retriever=self.retriever)
-        self.decider = EscalationDecider(api_key=self.api_key)
+        if self.offline_mode:
+            class OfflineGenerator:
+                def __init__(self, retriever):
+                    self.retriever = retriever
+                def generate(self, customer_message: str, intent: str,
+                             thread_context: list[str] | None = None,
+                             retrieved_examples: list[dict] | None = None) -> dict:
+                    if not retrieved_examples and self.retriever:
+                        try:
+                            retrieved_examples = self.retriever.retrieve(customer_message)
+                        except Exception:
+                            retrieved_examples = []
+                    if retrieved_examples:
+                        top = retrieved_examples[0]
+                        reply = top["brand_reply"]
+                        if not reply.endswith("/AI"):
+                            reply += " /AI"
+                        return {
+                            "reply_text": reply,
+                            "grounding_sources": [f"Retrieved historical SpotifyCares tweet (similarity: {top.get('similarity_score', 0.85):.2f}) [offline mode]"],
+                            "confidence": 0.85,
+                        }
+                    return {
+                        "reply_text": "Hey there! Thanks for reaching out. Could you share more details so we can assist? /AI",
+                        "grounding_sources": ["offline_default"],
+                        "confidence": 0.5,
+                    }
+            self.generator = OfflineGenerator(self.retriever)
+            self.decider = EscalationDecider(api_key=None)
+        else:
+            self.generator = ReplyGenerator(api_key=self.api_key, retriever=self.retriever)
+            self.decider = EscalationDecider(api_key=self.api_key)
         logger.info("Pipeline ready.")
 
     def _build_retrieval_index(self) -> None:
